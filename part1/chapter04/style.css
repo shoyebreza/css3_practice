@@ -1,0 +1,134 @@
+.letter{
+	color: teal;
+}
+
+.letter1{
+	letter-spacing: 0.2em;
+}
+
+.letter2{
+	letter-spacing: -0.1em;
+}
+
+.line{
+	line-height: 0.8;
+}
+
+.line1{
+	line-height: 1.6;
+}
+
+.line2{
+	line-height: 2;
+}
+
+#examples{
+	background-color: yellow;
+}
+h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: teal;
+}
+#examples h1 {
+    color: #C38;
+    font-family:"Arial Black", Gadget, sans-serif;
+    font-size: 350%;
+    margin: 0.2em 30px;
+
+}
+.outline {
+    text-shadow: 8px 0 #000, 0 1px #000, 8px 0 #000, 0 1px #000;
+}
+.bad-outline {
+    text-shadow: -1px -1px #000, 1px 1px #000;
+}
+.webkit {
+    /* Non-WebKit browsers will use the basic text color */
+    -webkit-text-fill-color: #FFF;
+    -webkit-text-stroke: #000 2px;
+}
+
+#caps {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-variant: small-caps;
+	color: teal;
+	text-align: justify-all;
+}
+
+#text-decoration{
+	background-color: #ccffff;
+}
+
+.decoration{
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-decoration-style: wavy;
+}
+
+.decoration1{
+	text-decoration: overline;
+	text-decoration-color: green;
+	text-decoration-style: double;
+}
+.decoration2{
+	text-decoration: line-through;
+	text-decoration-color: white;
+	text-decoration-style: dashed;
+}
+
+.decoration3{
+	text-decoration: line-through overline underline;
+
+}
+
+#indent{
+	background-color: #ccffff;
+}
+
+p {
+	text-indent: 40px;
+	width: 720px;
+	margin-left: 40px;
+}
+
+.no-blur {
+	text-shadow: 0.1em 0.1em rgba(0,0,0,0.4);
+}
+.blur {
+	text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.4);
+}
+.color-blur {
+	text-shadow: 0.1em 0.1em 0.2em rgba(0,102,102,0.4);
+}
+
+
+
+#mustard {
+	background-color: #FFD54E;
+	color: #CCAA3F;
+	width: 200px;
+	text-align: center;
+	padding: 10px 0;
+	float: left;
+}
+#teal {
+	color: teal;
+	float: right;
+	margin-left: 20px;
+}
+.raised {
+	text-shadow: -1px -1px #FFE79B, 1px 1px #7F744D;
+}
+.inset {
+	text-shadow: -1px -1px #7F744D, 1px 1px #FFE79B;
+}
+.outline {
+	margin-top: 0;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+.glow {
+	text-shadow: 0 0 0.4em #6F9;
+}
+.intense-glow {
+	text-shadow: 0 0 0.4em #6F9, 0 0 0.4em #6F9, 0 0 0.4em #6F9;
+}

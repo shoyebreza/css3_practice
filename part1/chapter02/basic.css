@@ -1,0 +1,36 @@
+body{
+	background-color: #f7f7f7;
+	color: black;
+}
+
+h1, h2, h3{
+	color: teal;
+	font-family: sans-serif;
+}
+
+a{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:link{
+	color: #8D0E6B;
+}
+
+a:visited{
+	color: #B53392;	
+}
+
+a:hover{
+	color:black;
+	text-decoration: underline;
+}
+
+p.intro {
+	text-transform: uppercase;
+}
+p{
+	font-size: 14px;
+}
+
+

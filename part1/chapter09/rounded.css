@@ -1,0 +1,42 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+ h1{
+    color: #933;
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom-width: 10px;
+}
+.important {
+    border-bottom-style: double;
+    border-bottom-width: 3px;
+}
+h2 {
+    border-left-color: teal;
+    border-left-style: solid;
+    border-left-width: 20px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+#box1, #box2 {
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    float: left;
+    border-radius: 30px;
+}
+#box1 {
+    border-style: solid;
+    border-color: gold yellow;
+    border-width: 20px 15px;
+}
+#box2 {
+    border-style: solid;
+    border-color: brown hotpink;
+    border-width: 20px 10px 30px 40px;
+}
+

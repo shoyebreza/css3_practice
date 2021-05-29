@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding 0;
+    font-family:Tahoma, Geneva, sans-serif;
+    background-color: #FFF;
+}
+#heading {
+    text-align: center;
+    width: 20em;
+    padding: 0.5em 1em;
+    background-color: #DCEBDD;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow:  #A0D5D6 0 0 0 5px,
+                 #789AA1 0 0 0 10px,
+              #AD9A27   0 0 0 15px,
+              #80ffff 0 0 0 5px,
+              #ccffff 0 0 0 8px,
+              #304345 0 0 0 20px;
+}
+

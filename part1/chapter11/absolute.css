@@ -1,0 +1,29 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #000;
+    background-color: #FFF;
+}
+#wrapper {
+    width: 650px;
+    margin: 0 auto;
+}
+.floatleft {
+    float: left;
+    margin: 3px 10px 3px 40px;
+}
+.figcaption {
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 380px;
+}
+.figure {
+    width: 400px;
+    position: relative;
+}
+img[src$="destination.png"] {
+    position: absolute;
+    left: -42px;
+    top: -25px;
+}/**/

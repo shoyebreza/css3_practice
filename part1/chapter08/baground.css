@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #000;
+    background-color: #D2E1E6;
+}
+
+#yachts {
+    width: 500px;
+    height: 617px;
+    margin: 0 auto;
+    background-image: url(images/yachts.jpg);
+    background-repeat: no-repeat;
+    background-position:center top;
+    padding-top: 50px;
+}
+
+#repeat{
+	background-color: #ccffff;
+}
+
+#box1, #box2, #box3 {
+    width: 200px;
+    padding: 20px;
+    border: 15px rgba(255, 0 , 234 , 0.3) solid;
+    float: left;
+    margin:50px 0 30px 80px;
+    background-image: url(images/flower2.png);
+}
+
+#box1 {
+    background-origin: border-box;
+}
+#box2 {
+    background-origin: padding-box;
+}
+#box3 {
+    background-origin: content-box;
+}
+
+#origin1, #origin2, #origin3 {
+    width: 200px;
+    padding: 20px;
+    border: 20px rgba(255, 0 , 0 , 0.2) solid;
+    float: left;
+    margin-left: 80px;
+    background-image: url(images/bg_tile.jpg);
+    background-repeat: no-repeat;
+}
+#origin1 {
+    background-origin: border-box;
+}
+#origin2 {
+    background-origin: padding-box;
+}
+#origin3 {
+    background-origin: content-box;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#space, #round {
+    background-image: url(images/flower2.png);
+    background-color: #EFECCA;
+    width: 300px;
+    height: 260px;
+    margin: 80px;
+    float: left;
+    border: 2px solid #999;
+}
+
+#space {
+   background-repeat: space repeat;
+}
+
+#round {
+    background-repeat: round repeat;
+}
+
+#bg1, #bg2, #bg3 {
+    height: 150px;
+    width: 200px;
+    border: 4px double #363;
+    margin: 20px;
+    float: left;
+    background-image: url(images/flower2.png);
+    background-repeat: no-repeat;
+}
+#bg1 {
+    background-position: left 50px bottom 50px;
+}
+#bg2 {
+    background-position: right bottom 30px;
+}
+#bg3 {
+    background-position: right -30px bottom -30px;
+}

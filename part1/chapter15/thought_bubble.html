@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thought Bubble</title>
+<style>
+body {
+    background-color: #FFF;
+    color: #000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#thought {
+    background-color: #963;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    width: 240px;
+    padding: 48px;
+    margin: 20px auto;
+    border-radius: 50%;
+    position: relative;
+}
+#thought::before, #thought::after {
+    content: '';
+    border: #963 solid 10px;
+    border-radius: 50%;
+    position: absolute;
+}
+#thought::before {
+    height: 20px;
+    width: 20px;
+    bottom: -28px;
+    left: 60px;
+}
+#thought::after {
+    height: 8px;
+    width: 8px;
+    bottom: -40px;
+    left: 30px;
+}
+</style>
+</head>
+
+<body>
+<p id="thought">Curiouser and curiouser. . .</p>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+    background-color: #ccffff;
+    color: #000;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: 60px;
+    max-width: 600px;
+    background-image: url(images/border.png);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+#tail {
+    height: 350px;
+    width: 250px;
+    margin: 0 auto;
+    overflow-y: auto;
+    white-space: pre;
+    border: double 4px #900;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+}
+
+#box {
+    border: 10px #036 solid;
+    height: 310px;
+    width: 310px;
+    padding: 20px;
+    margin: 40px auto;
+    text-align: center;
+    background-image: url(images/yachts.jpg), url(images/stripe.png);
+    background-position: center;
+    background-size: contain, auto;
+    background-repeat: no-repeat, repeat;
+    background-origin: padding-box, border-box;
+    background-clip: content-box, border-box;
+    background-color: #D2E1E6;
+}
+
+p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gradient{
+
+    background-image: url(images/gradient.jpg);
+    background-repeat: repeat-x;
+    background-color: #C1FEFF;
+    color: #000;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#contain, #cover {
+    border: 2px #903 solid;
+    background-image: url(images/yachts.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+}
+#contain {
+    background-size: contain;
+}
+#cover {
+    background-size: cover;
+}
+
+#space, #round {
+    background-image: url(images/flower2.png);
+    background-color: #EFECCA;
+    width: 300px;
+    height: 230px;
+    margin: 20px;
+    float: left;
+    border: 2px solid #999;
+}
+#space {
+   background-repeat: space;
+}
+#round {
+    background-repeat: round;
+}
